@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dm/@jgtools/textmesh)](https://www.npmjs.com/package/@jgtools/textmesh)
 [![GitHub](https://img.shields.io/github/license/jgtools/textmesh)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
-TextMesh for Three JS that extends Mesh and uses TextGeometry.
+TextMesh for ThreeJS that extends Mesh and uses TextGeometry.
 
 ## Installation
 
