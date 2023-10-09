@@ -1,36 +1,36 @@
 {
     "name": "@jgtools/textmesh",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "TextMesh for Three JS that extends Mesh and uses TextGeometry",
     "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-      "build": "tsc"
+        "build": "tsc"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/JGTools/TextMesh.git"
+        "type": "git",
+        "url": "git+https://github.com/JGTools/TextMesh.git"
     },
     "keywords": [
-      "javascript",
-      "typescript",
-      "three",
-      "textmesh",
-      "textgeometry"
+        "javascript",
+        "typescript",
+        "three",
+        "textmesh",
+        "textgeometry"
     ],
     "author": "Erik1001",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/JGTools/TextMesh/issues"
+        "url": "https://github.com/JGTools/TextMesh/issues"
     },
     "homepage": "https://github.com/JGTools/TextMesh#readme",
-    "dependencies": {
-      "three": "^0.148.0"
+    "peerDependencies": {
+        "three": "0.x.x"
     },
     "devDependencies": {
-      "@types/three": "^0.146.0",
-      "tslib": "^2.4.1"
+        "tslib": "^2.6.2",
+        "@types/three": "^0.156.0",
+        "three": "^0.157.0"
     }
-  }
-  
+}
