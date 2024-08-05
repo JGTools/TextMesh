@@ -15,7 +15,7 @@ export default class TextMesh extends Mesh {
      * @param vAlign - Vertical alignment, range 0-1, 0 is bottom and 1 is top. Default is 0.5.
      * @param options - TextGeometryParameters passed to TextGeometry
      */
-    constructor(font: Font, rotation = [0, 0, 0], hAlign = 0.5, vAlign = 0.5, options: TextGeometryParameters = { font: font, size: 1, height: 0, curveSegments: 0 }) {
+    constructor(font: Font, rotation = [0, 0, 0], hAlign = 0.5, vAlign = 0.5, options: TextGeometryParameters = { font: font, size: 1, depth: 0, curveSegments: 0 }) {
         super();
         this.#rotation = rotation;
         this.#hAlign = hAlign;
